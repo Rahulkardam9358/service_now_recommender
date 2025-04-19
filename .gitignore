@@ -1,0 +1,4 @@
+/saved_model/*
+/logs/*
+*.ini
+/data/*

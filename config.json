@@ -1,0 +1,16 @@
+{
+    "input_fields": [
+        "Short Description",
+        "Summary"
+    ],
+    "output_fields": [
+        "Closure Notes",
+        "Comments and Work Notes"
+    ],
+    "data_dir": "data",
+    "data_file": "servicenow_incidents_1M.csv",
+    "model_dir": "saved_model",
+    "text_vectorizer": "tfidf",
+    "model_type": "random_forest",
+    "max_features": 5000
+}

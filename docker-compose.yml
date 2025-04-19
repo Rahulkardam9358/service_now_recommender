@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  incident_recommender:
+    build: .
+    container_name: ml_flask_container
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
