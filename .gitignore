@@ -2,3 +2,4 @@
 /logs/*
 *.ini
 /data/*
+*.ipynb
